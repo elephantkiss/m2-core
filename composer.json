@@ -1,0 +1,24 @@
+{
+  "name": "elephantkiss/m2-attribute-revision",
+  "description": "Revision attributes changes for Magento 2.",
+  "type": "magento2-module",
+  "license": "Commercial",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Elephant Kiss",
+      "email": "core@elephant-kiss.com"
+    }
+  ],
+  "require": {
+    "php": "~7.3.0||~7.4.0||~8.0.0||~8.1.0||~8.2.0"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "ElephantKiss\\AttributeRevision\\": "src/"
+    }
+  }
+}
