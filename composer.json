@@ -1,8 +1,8 @@
 {
-  "name": "elephantkiss/m2-attribute-revision",
-  "description": "Revision attributes changes for Magento 2.",
+  "name": "elephantkiss/m2-core",
+  "description": "Core extension EK for Magento 2.",
   "type": "magento2-module",
-  "license": "Commercial",
+  "license": "GPL-3.0",
   "version": "1.0.0",
   "authors": [
     {
@@ -18,7 +18,7 @@
       "src/registration.php"
     ],
     "psr-4": {
-      "ElephantKiss\\AttributeRevision\\": "src/"
+      "ElephantKiss\\Core\\": "src/"
     }
   }
 }
